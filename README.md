@@ -14,9 +14,11 @@ DISPOSITIVOS CON RELOSUCIÓN DE PANTALLA IDÉNTICA A ESTE.
 En el futuro implementaré más novedades y gestión de errores
 
 Para ejecutarlo:
-1º) Abre YouTube.com y seleciona la carpeta ~/Bot-para-YouTube/videos
+1º) Abre YouTube.com y 
+seleciona la carpeta ~/Bot-para-YouTube/videos
 2º) Cierra YouTube.com
-3º) Pon un video en el repositorio llamado exactamente "video.mp4"
+3º) Pon un video en el 
+repositorio llamado exactamente "video.mp4"
 4º) Ejecutar el "YouTubeNot.sh" para que comience la edición
 5º) Los videos verticales de 30 segundos llamados "parteXX.mp4" estarán en la carpeta "videos"
 6º) El script python se ejecutará en este momento pidiéndote tus preferencias
