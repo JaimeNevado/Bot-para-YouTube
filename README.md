@@ -16,6 +16,7 @@ En el futuro implementaré más novedades y gestión de errores
 
 
 Para ejecutarlo:
+
 1º) Abre YouTube.com y seleciona la carpeta ~/Bot-para-YouTube/videos
 
 2º) Cierra YouTube.com
