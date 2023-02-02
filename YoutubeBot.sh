@@ -11,7 +11,7 @@ echo "
 "                                                                                                                                
 
 PYTHON="/usr/bin/python3"
-FILE="/Users/jaimenevado/Desktop/Bot-para-YouTube/main.py"
+FILE="/Users/jaimenevado/Desktop/Bot-para-YouTube/main.py" #Path to your main file
 
 ffmpeg -i video.mp4 -vf 'split[original][copy];[copy]scale=-1:ih*(16/9)*(16/9),crop=w=ih*9/16,gblur=sigma=20[blurred];[blurred][original]overlay=(main_w-overlay_w)/2:(main_h-overlay_h)/2' output.mp4
 
@@ -22,7 +22,7 @@ ffmpeg -i output.mp4 -c copy -map 0 -segment_time 00:00:30 -start_number 1 -f se
 rm video.mp4
 rm output.mp4
 
-mv *.mp4 /Users/jaimenevado/Desktop/Bot-para-YouTube/videos
+mv *.mp4 /Users/jaimenevado/Desktop/Bot-para-YouTube/videos #Path to your videos folder
 
 $PYTHON "$FILE"
 
