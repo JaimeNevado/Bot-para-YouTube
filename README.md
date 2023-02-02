@@ -7,6 +7,7 @@ programar dichos videos para su subida programada a YouTube.
 
 Requiere la instalación de ffmpeg, pip, python3 
 y distintos modulos importados en la cabecera del main.py.
+Además debes cambiar las rutas a los archivos en el archivo bash (YoutubeBot.sh)
 
 Al tratarse de un programa que funciona por clicks a coordenadas de pixeles SOLO FUNCIONA CON MACBOOK AIR M1 Y CON 
 DISPOSITIVOS CON RELOSUCIÓN DE PANTALLA IDÉNTICA A ESTE.
