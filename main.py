@@ -20,7 +20,9 @@ def print_logo():
 	print("														    By Jaime Nevado")
 
 def click_in(x, y, wait, speed):
-	pg.moveTo(x, y ,speed)
+	finalx = (x/2560)*1600
+	finaly = (y/1600)*1024
+	pg.moveTo(finalx, finaly ,speed)
 	pg.click()
 	time.sleep(wait)
 
